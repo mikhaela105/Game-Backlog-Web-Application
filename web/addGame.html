@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Redirected from Add Game Button on gameBacklog.jsp. 
+Provides input for the new game’s name, status, and platform.
+
+@author Mikhaela Tajonera
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Add Game</title>
+    </head>
+    <body>
+        <div class ="panel">
+            <form name ="inputForm" action="./AddGameServlet">
+                <h1>Add a Game Into Your Backlog</h1>
+                Name: <input type="text" name="name" value="" required/>
+                <br><br>
+                Status: <select name="status">
+                    <option>Not Started</option>
+                    <option>Started</option>
+                    <option>Completed</option>
+                </select>
+                <br><br>
+                Platform: <select name="platformName">
+                    <option>PC</option>
+                    <option>Playstation 4</option>
+                    <option>Playstation 3</option>
+                    <option>Xbox One</option>
+                    <option>Xbox 360</option>
+                    <option>Nintendo DS</option>
+                    <option>Nintendo Switch</option>
+                </select>
+                <br><br><br><input class="button" type="submit" value="Add">
+            </form>
+            <form name="BackForm" action="./GameBacklogServlet">
+                <br><input class="button" type="submit" value="Back" >
+            </form>
+        </div>
+    </body>
+</html>

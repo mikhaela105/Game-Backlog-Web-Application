@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Simple HTML for the welcome screen. Page that displays upon
+launching application. Has button that redirects to
+main page of application.
+
+@author Mikhaela Tajonera
+-->
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Game Backlog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="panel">
+            <h1>Welcome to your Game Backlog!</h1>
+            <div>Click below to continue.</div>
+            <form action="./GameBacklogServlet" method="post">
+                <br><input class ="button" type="submit" value="View Backlog">
+            </form>
+        </div>
+    </body>
+</html>
