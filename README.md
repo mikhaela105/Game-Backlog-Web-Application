@@ -33,4 +33,4 @@ Note: If you cannot connect to the database or require the login, use:
 Username: xht5252
 Password: password
 
-Refere to the [User Manual](https://github.com/mikhaela105/Game-Backlog-Web-Application/blob/master/User%20Manual.pdf) to see how to interact with the application.
+Refer to the [User Manual](https://github.com/mikhaela105/Game-Backlog-Web-Application/blob/master/User%20Manual.pdf) to see how to interact with the application.
