@@ -7,14 +7,13 @@ name, status (Not started, started, completed), platform played on (PC, Playstat
 date the game was added.
 
 Features:
-• Adding games
-• Removing games
-• Filtering backlog
-• Editing games
+- Adding games
+- Removing games
+- Filtering backlog
+- Editing games
 
-==========================================================================================================================================
 Setup
-==========================================================================================================================================
+=======
 This application was developed using NetBeans IDE 8.2 and GlassFish Server 4.1.1.
 JDK: 1.8
 Java EE Version: Java EE 7 Web
